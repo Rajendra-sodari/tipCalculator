@@ -1,0 +1,63 @@
+ body{
+    background-color: darkred;
+    color: blanchedalmond;
+} 
+
+.container-1{
+    border: 1px solid black;
+    width: 75%;
+    margin:0% auto;
+    text-align: center;
+
+}
+.flex-tipbox-1{
+    display: flex;
+    border:1px solid black ;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+.flex-tipbox{
+    color: blanchedalmond;
+    background-color: darkorchid;
+}
+.flex-end{
+    display: flex;
+    border:1px solid black ;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    background-color: #ffffff;
+}
+
+ #totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  } 
+  
+  #totalTip:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  #totalTip sup {
+    font-size: 20px;
+    top: -18px;
+  }
+  
+  #totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
+  
